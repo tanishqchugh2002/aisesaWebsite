@@ -1,0 +1,23 @@
+<%- include ("partials/header") -%>
+    <h1>Welcome to our contact page</h1>
+    <hr class="hr">
+    <br>
+    <br>
+    <h3>You can send us an Email at <em style="font-weight: lighter;">aisesa.nms@gmail.com</em></h3>
+    <h4> <em> Or send us your queries and we'll <strong>contact you</strong></em></h4>
+    <br>
+    <form action="/contact" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required autofocus style="width: 500px;">
+        <br><br>
+        <input type="email" name="email" placeholder="Your Email" required style="width: 500px;">
+        <br>
+        <br>
+        <input type="" placeholder="Contact No." maxlength="10" required pattern="\d{10}" name="number" style="width: 500px;"">
+<br>
+<br>
+<textarea name="query" cols="68" rows="10" placeholder="Your Queries or Questions" required></textarea>
+        <br><br>
+        <button class="btn btn-warning">Submit Details</button>
+        <br>
+    </form>
+    <%- include ("partials/footer") -%>

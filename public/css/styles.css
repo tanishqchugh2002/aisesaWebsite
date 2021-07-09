@@ -1,0 +1,124 @@
+.body{
+    background-color: #dddbc2;
+    text-align: center;
+}
+.navbar{
+    background-color: #1b1b19;
+    margin: 0% 10%;
+    border-radius: 0px 0px 20px 20px;
+    color: white;
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+.nav-item:hover{
+    background-color: orange;
+
+}
+.navbar-brand{
+    font-family:'Courier New', Courier, monospace;
+}
+.icon{
+    height: 300px;
+    
+}
+/* @media() */
+.hr {
+    border:solid orange 6px;
+    /* border:  orange 6px; */
+    border-bottom: none;
+    width: 70px;
+    position: relative;
+    top: 15px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  p{
+      padding: 0 10%;
+      font-weight: bolder;
+      font-size: 1.5rem;
+  }
+.item{
+    width: 500px;
+    height: 500px;
+}
+.photo{
+    height: 10rem;
+    border-radius: 20%;
+}
+.card-header{
+    height: 15rem;
+}
+.info{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.foot{
+    background-color: #1b1b19;
+    color: white;
+    /* font-size: 0.5rem; */
+    font-weight: lighter;
+}
+.footimage{
+height: 5rem;
+}
+.missionimage{
+    height: 15rem;
+    
+}
+.missioncontent{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mission{
+    padding-bottom: 10px;
+}
+.donateimage{
+    size: 50%;
+}
+.donate{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: white;
+    padding: 30px 45px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .galleryimage{
+      width: 100%;
+  }
+
+  .donate-btn{
+      width: 200px;
+      height: 80px;
+      font-size: 1.5rem;
+      /* border-radius: 20%; */
+  }
+  .big{
+
+width: 30%;
+font-size: 1.5rem;
+}
+.gap{
+    padding-top: 30px;
+}
+.left{
+    text-align: right;
+}
+.right{
+    text-align: left;
+}
+.iconn{
+    padding: 10px;
+    height: 50px;
+}
+
+.iconn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}

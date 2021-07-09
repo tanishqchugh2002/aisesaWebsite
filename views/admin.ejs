@@ -1,0 +1,23 @@
+<%- include ("partials/header") -%>
+    <h1>Welcome admin</h1>
+    <div style="text-align: left; padding-left: 10px;">
+    <% people.forEach(function(user){ %>
+
+        <h4>
+            <%= user.name %>
+        </h4>
+        <ul>
+            <li>
+                email: <%= user.email %> 
+            </li>
+            <li>
+                Contact No. : <%= user.contact %> 
+            </li>
+            <li>
+                Queries : <%= user.query %> 
+            </li>
+        </ul>
+
+        <% }) %>
+    </div>
+            <%- include ("partials/footer") -%>
